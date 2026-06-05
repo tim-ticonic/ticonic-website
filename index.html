@@ -42,11 +42,17 @@
         .hero {
             display: flex;
             align-items: center;
-            gap: 48px;
+            gap: 40px;
             padding: 60px 80px;
             border-bottom: 1px solid rgba(255,255,255,0.06);
+            justify-content: center;
         }
-
+        
+        .hero-right {
+            flex: 1;
+            max-width: 700px;
+        }
+        
         .hero-left { 
             flex: 0 0 auto; 
             max-width: 340px; 
@@ -74,11 +80,6 @@
 
         .appstore-badge img { height: 48px; }
 
-        .hero-right {
-            flex: 1;
-            max-width: 600px;
-        }
-        
         .carousel {
             position: relative;
             overflow: hidden;
@@ -283,7 +284,7 @@
         <img class="logo" src="images/rocknor-logo.png" alt="Rocknor & the Donut Factory">
         <h2>Restore Donutropolis<br>One Factory at a Time</h2>
         <p>A factory puzzle game for iPhone, iPad, and Mac</p>
-        <p style="font-size:13px; color:rgba(255,255,255,0.4); margin-bottom:8px;">Based on Rocknor's Donut Factory by Hanford Lemoore</p>
+        <p style="font-size:17px; color:rgba(255,255,255,0.8); margin-bottom:16px; font-style:italic;">Based on Rocknor's Donut Factory<br>by Hanford Lemoore</p>
         <a class="appstore-badge" href="#">
             <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
         </a>
